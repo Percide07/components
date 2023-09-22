@@ -1,0 +1,25 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+img{
+  width: 100px;
+  height: 100px;
+}
+
+.Display{
+  display: grid;
+  justify-content: center;
+  align-content: center; 
+  grid-template-columns: repeat(2,1fr);
+  grid-template-rows: repeat(5,1fr);
+  grid-template-areas: 
+'Display Display'
+'Display Display'
+'Display Display'
+'Display Display'
+'Display Display';
+margin-top: 5rem;
+gap: 15px;;
+}
