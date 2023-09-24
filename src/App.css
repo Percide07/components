@@ -2,24 +2,15 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  background-color: #F6F7F9;
 }
-img{
-  width: 100px;
-  height: 100px;
-}
-
-.Display{
+.display{
   display: grid;
-  justify-content: center;
-  align-content: center; 
-  grid-template-columns: repeat(2,1fr);
-  grid-template-rows: repeat(5,1fr);
-  grid-template-areas: 
-'Display Display'
-'Display Display'
-'Display Display'
-'Display Display'
-'Display Display';
-margin-top: 5rem;
-gap: 15px;;
+  grid-template-columns: repeat(4,320px) ;
+  grid-template-rows: repeat(2,400px) ;
+  grid-area: 
+  'Card Card Card Card'
+  'Card Card Card Card';
+  gap: 10px;
+  margin-left: 50px;
 }

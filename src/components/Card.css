@@ -1,11 +1,64 @@
-
 .Card{
-    border: 2px solid white;
-    width: 500px;
-    height: 300px;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    border-radius: 10px;
+    width: 304px;
+    height: 388px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: #F6F7F9;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    /* box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 4px 0px inset; */
+    /* box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px; */
+}
+.image1{
+    width: 250px;
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.image2,.image3,.image4{
+    width: 20px;
+    height: 20px;
+}
+.carName{
+    font-size: 25px;
+    width: 290px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    text-align: center;
+}
+.carType{
+    font-size: 15px;
+    color: grey;
+}
+.pict{
+}
+.part1{
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.part2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.gasP,.transP,.peoP{
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.like{
+    width: 30px;
+    height: 30px;
+}
+.btn{
+    background: #3563E9;
 }
